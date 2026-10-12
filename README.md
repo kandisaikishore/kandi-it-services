@@ -1,36 +1,41 @@
-# Kandi IT Services — Local preview & deployment
+# Kandi IT Services
 
-This small site is a static HTML/CSS/JS project. Preview locally or deploy to GitHub Pages or Netlify.
+A repository for the Kandi IT Services web presence and related digital service work.
 
-Local preview
+## Overview
 
-```bash
-# from project root
-python -m http.server 8000
-# then open http://localhost:8000
-```
+Use this repository to document the service offering, website experience, and supporting implementation. The source code and project configuration define the exact technologies and deployed features.
 
-Deploy to GitHub Pages (manual)
+## Explore the project
 
-1. Create a repository on GitHub and push this project (or use the GitHub CLI):
+- Review the application source and asset structure
+- Check framework and dependency versions in project manifests
+- Find environment-specific configuration in example files (never commit secrets)
+- Verify current demo/deployment links before sharing them with clients
 
-```bash
-git init
-git add .
-git commit -m "Initial site"
-# create repo on GitHub and push (replace <user>/<repo>)
-gh repo create <user>/<repo> --public --source=. --remote=origin --push
-```
+## Local setup
 
-2. In the repository settings, enable GitHub Pages from the `main` branch (or create a `gh-pages` branch).
-
-Deploy to Netlify (quick)
-
-- Drag & drop the project folder into the Netlify Sites dashboard, or use the Netlify CLI:
+Clone the repository:
 
 ```bash
-npm install -g netlify-cli
-netlify deploy --prod --dir=.
+git clone https://github.com/saikishore2410/kandi-it-services.git
+cd kandi-it-services
 ```
 
-If you'd like, I can create a Git repo here and generate the necessary GitHub Pages branch commands for you — tell me the GitHub repo name (or I can leave instructions).
+Follow the setup instructions and scripts declared by the project. For npm-based builds, use the commands available in `package.json`.
+
+## Client-readiness checklist
+
+- Make services, deliverables, and contact information explicit
+- Check mobile layout, accessibility, and performance
+- Verify all links and forms
+- Keep credentials and client data out of source control
+- Document deployment and rollback steps
+
+## Contributions
+
+Open an issue with context and reproduction steps, or submit a focused pull request.
+
+## License
+
+No license is specified. Add a `LICENSE` file to define reuse terms.
