@@ -4,37 +4,28 @@ A repository for the Kandi IT Services web presence and related digital service 
 
 ## Overview
 
-Use this repository to document the service offering, website experience, and supporting implementation. The source code and project configuration define the exact technologies and deployed features.
-
-## Explore the project
-
-- Review the application source and asset structure
-- Check framework and dependency versions in project manifests
-- Find environment-specific configuration in example files (never commit secrets)
-- Verify current demo/deployment links before sharing them with clients
+Use this repository to describe the customer-facing service experience and its supporting implementation. Consult the source code and project configuration for the exact technology stack and capabilities currently available.
 
 ## Local setup
-
-Clone the repository:
 
 ```bash
 git clone https://github.com/saikishore2410/kandi-it-services.git
 cd kandi-it-services
 ```
 
-Follow the setup instructions and scripts declared by the project. For npm-based builds, use the commands available in `package.json`.
+Follow the setup commands and scripts defined by the project's manifests. Configure secrets through local environment variables or a secret manager; never commit them.
 
 ## Client-readiness checklist
 
-- Make services, deliverables, and contact information explicit
+- Make services, deliverables, and contact options explicit
 - Check mobile layout, accessibility, and performance
-- Verify all links and forms
-- Keep credentials and client data out of source control
+- Verify forms and external links
 - Document deployment and rollback steps
+- Keep customer data and credentials out of version control
 
 ## Contributions
 
-Open an issue with context and reproduction steps, or submit a focused pull request.
+Open issues with context and reproduction steps or submit a focused pull request.
 
 ## License
 
