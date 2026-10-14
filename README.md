@@ -1,50 +1,53 @@
-# Kandi IT Services
+# Kandi IT Services Website
 
-## Live Demo / Deployment URL
+[![Source](https://img.shields.io/badge/Source-GitHub-181717?logo=github)](https://github.com/kandisaikishore/kandi-it-services) [![Last Commit](https://img.shields.io/github/last-commit/kandisaikishore/kandi-it-services)](https://github.com/kandisaikishore/kandi-it-services/commits/main)
 
-**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. The GitHub repository link is not a deployment URL.
+A website project for presenting Kandi IT Services and its digital offerings. The repository includes an HTML entry page, CSS and JavaScript assets, and supporting visual assets.
 
+## Purpose
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/kandi-it-services) [![Issues](https://img.shields.io/github/issues/saikishore2410/kandi-it-services)](https://github.com/saikishore2410/kandi-it-services/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/kandi-it-services)](https://github.com/saikishore2410/kandi-it-services/commits/main)
+- Present the organization and its services clearly
+- Give visitors a simple way to explore the business website
+- Provide a base for service descriptions and contact-oriented journeys
+- Keep visual and interactive assets organized in a static web project
 
-> A repository for the Kandi IT Services web presence and related digital service work.
+## Technology
 
-## At a glance
+- HTML
+- CSS
+- JavaScript
+- Static image and brand assets
 
-- **Purpose:** Use the feature and scope sections below to understand the problem this project addresses.
-- **Getting started:** Follow the repository-specific setup instructions and verify commands against the current source and package scripts.
-- **Configuration:** Keep API keys, database credentials, tokens, and private user data out of commits; configure secrets locally.
-- **Quality checks:** Run the available build, test, and lint commands before submitting changes.
+## Run locally
 
-
-
-A repository for the Kandi IT Services web presence and related digital service work.
-
-## Overview
-
-Use this repository to describe the customer-facing service experience and its supporting implementation. Consult the source code and project configuration for the exact technology stack and capabilities currently available.
-
-## Local setup
+Clone the repository and open `index.html` in a modern browser:
 
 ```bash
-git clone https://github.com/saikishore2410/kandi-it-services.git
+git clone https://github.com/kandisaikishore/kandi-it-services.git
 cd kandi-it-services
 ```
 
-Follow the setup commands and scripts defined by the project's manifests. Configure secrets through local environment variables or a secret manager; never commit them.
+Alternatively, serve the folder using a local static web server to test page navigation and assets. A public deployment URL has not been verified here, so add one only after testing the live site.
 
-## Client-readiness checklist
+## Suggested quality checks
 
-- Make services, deliverables, and contact options explicit
-- Check mobile layout, accessibility, and performance
-- Verify forms and external links
-- Document deployment and rollback steps
-- Keep customer data and credentials out of version control
+- Verify that navigation, buttons, and contact links work
+- Test responsive layouts across mobile, tablet, and desktop widths
+- Check image loading, alt text, keyboard accessibility, and contrast
+- Review text for accuracy and consistency
+- Confirm that forms do not expose or unnecessarily collect private data
 
-## Contributions
+## Future improvements
 
-Open issues with context and reproduction steps or submit a focused pull request.
+- Add clear service descriptions and calls to action
+- Optimize image sizes and page performance
+- Add accessible form feedback and validation where forms exist
+- Document deployment, domain, and rollback steps
+
+## Contributing
+
+Report issues with reproduction steps and screenshots where helpful. Keep changes focused and test the affected pages before submitting a pull request.
 
 ## License
 
-No license is specified. Add a `LICENSE` file to define reuse terms.
+No license file is currently declared. Add a `LICENSE` file to define reuse terms.
